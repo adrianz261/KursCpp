@@ -2,11 +2,6 @@
 
 bool isPalindrome(const std::string & text)
 {
-  if (text.size() < 3)
-  {
-    return false;
-  }
-
   const size_t size_of_string = text.size() - 1;
   const size_t n = text.size() / 2;
   for (size_t i = 0; i < n; ++i)

@@ -4,7 +4,7 @@
 
 int main()
 {
-    const std::string text = "kaja";
+    const std::string text = "a";
     
     if (isPalindrome(text))
     {
